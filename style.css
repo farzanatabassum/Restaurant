@@ -57,22 +57,37 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
+
+  .modal-heading{
+display: flex;
+    color: orange;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 4
+  }
   
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
+    position: relative;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
   .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
+    color: rgb(251, 47, 47);
+    
+    font-size: 24px;
     font-weight: bold;
+    top: 0;
+    right: 10;
+    position: absolute;
+padding: 10;
+margin-bottom: 10
+  
   }
   
   .close:hover,
@@ -91,6 +106,20 @@
     pointer-events: none;
   }
 
+  
+  .card-title  {
+    pointer-events: none;
+  }
+
   img  {
     pointer-events: none;
+  }
+
+  .card-info  {
+    pointer-events: none;
+  }
+
+  .imageModal{
+    height: 200px;
+    width: 200px;
   }
