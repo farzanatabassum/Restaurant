@@ -1,7 +1,7 @@
 <html lang="en">
   <head>
-    <script text="text/javascript" src=""></script>
-    <script>
+    <!-- <script text="text/javascript" src=""></script> -->
+    <!-- <script>
       fetch("menu.json")
         .then((response) => response.json())
         .then((data) => {
@@ -11,9 +11,10 @@
             let vimage = data.items.image;
             let vprice = data.items.price;
             let vcategory = data.items.category;
+            console.log(data);
           }
         });
-    </script>
+    </script> -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,22 +57,67 @@
           <button onclick="filterItems('Dinner')">Dinner</button>
         </div>
       </div>
-      <!-- food Menu -->
-      <div class="container">
-        <!-- trial -->
+
+      <div class="container" id="fooditems">
+        <!-- <div class="food-card">
+          <div class="food-image">
+            <img
+              src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="food image"
+            />
+          </div>
+
+          <div class="food-details">
+            <div class="card-title">
+              <h3 class="food-title">Buttermilk Pancakes</h3>
+              <h4 class="food-price">$ 15.99</h4>
+            </div>
+            <hr />
+            <div class="food-details">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+              excepturi, sequi accusamus asperiores dolorum libero. Laborum
+              natus quo qui quos aut. Ex dolor, asperiores quibusdam porro
+              labore impedit eum nobis.
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
+         
+          <div class="food-image">
+            <img
+              src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="food image"
+            />
+          </div>
+         
+          <div class="food-details">
+       
+            <div class="card-title">
+              <h3 class="food-title">Buttermilk Pancakes</h3>
+              <h4 class="food-price">$ 15.99</h4>
+            </div>
+            <hr />
+            <div class="food-details">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+              excepturi, sequi accusamus asperiores dolorum libero. Laborum
+              natus quo qui quos aut. Ex dolor, asperiores quibusdam porro
+              labore impedit eum nobis.
+            </div>
+          </div>
+        </div>
+
+        <div class="food-card">
         
-        <!-- food card 1-->
-        <div class="food-card">
-          <!-- food image -->
           <div class="food-image">
             <img
               src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="food image"
             />
           </div>
-          <!-- food details -->
+          
           <div class="food-details">
-            <!-- card title -->
+         
             <div class="card-title">
               <h3 class="food-title">Buttermilk Pancakes</h3>
               <h4 class="food-price">$ 15.99</h4>
@@ -85,18 +131,18 @@
             </div>
           </div>
         </div>
-        <!-- food card 2-->
+
         <div class="food-card">
-          <!-- food image -->
+         
           <div class="food-image">
             <img
               src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="food image"
             />
           </div>
-          <!-- food details -->
+          
           <div class="food-details">
-            <!-- card title -->
+            
             <div class="card-title">
               <h3 class="food-title">Buttermilk Pancakes</h3>
               <h4 class="food-price">$ 15.99</h4>
@@ -109,57 +155,7 @@
               labore impedit eum nobis.
             </div>
           </div>
-        </div>
-        <!-- food card 3-->
-        <div class="food-card">
-          <!-- food image -->
-          <div class="food-image">
-            <img
-              src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="food image"
-            />
-          </div>
-          <!-- food details -->
-          <div class="food-details">
-            <!-- card title -->
-            <div class="card-title">
-              <h3 class="food-title">Buttermilk Pancakes</h3>
-              <h4 class="food-price">$ 15.99</h4>
-            </div>
-            <hr />
-            <div class="food-details">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-              excepturi, sequi accusamus asperiores dolorum libero. Laborum
-              natus quo qui quos aut. Ex dolor, asperiores quibusdam porro
-              labore impedit eum nobis.
-            </div>
-          </div>
-        </div>
-        <!-- food card 4-->
-        <div class="food-card">
-          <!-- food image -->
-          <div class="food-image">
-            <img
-              src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="food image"
-            />
-          </div>
-          <!-- food details -->
-          <div class="food-details">
-            <!-- card title -->
-            <div class="card-title">
-              <h3 class="food-title">Buttermilk Pancakes</h3>
-              <h4 class="food-price">$ 15.99</h4>
-            </div>
-            <hr />
-            <div class="food-details">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-              excepturi, sequi accusamus asperiores dolorum libero. Laborum
-              natus quo qui quos aut. Ex dolor, asperiores quibusdam porro
-              labore impedit eum nobis.
-            </div>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
