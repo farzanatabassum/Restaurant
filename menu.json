@@ -4,28 +4,28 @@
         "description": "Savoury pancakes",
         "image": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fmychinesekitchen.com%2Fjian-bing%2F&psig=AOvVaw1kNo5iRjTE4ivKFzayBVqI&ust=1673245216170000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCb76eqt_wCFQAAAAAdAAAAABAE",
         "price": "BDT. 385",
-        "category": "breakfast"
+        "category": "Breakfast"
     },
     {
         "name": "Congee",
         "description": "Mild flavoured rice porridge",
         "image": "https://healthynibblesandbits.com/?s=congee",
         "price": "BDT. 295",
-        "category": "breakfast"
+        "category": "Breakfast"
     },
     {
         "name": "Dough Sticks with Soybean Milk",
         "description": "Sweet, deep-fried sticks made up of dough",
         "image": "https://cookingtheglobe.com/youtiao-chinese-crullers-recipe/",
         "price": "BDT. 345",
-        "category": "breakfast"
+        "category": "Breakfast"
     },
     {
         "name": "Tofu Pudding",
         "description": "Sweet, deep-fried sticks made up of dough",
         "image": "https://asianinspirations.com.au/recipes/tofu-pudding-tau-foo-fa/",
         "price": "BDT. 580",
-        "category": "breakfast"
+        "category": "Breakfast"
     },
     {
         "name": "Oodles of Noodles",
