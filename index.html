@@ -1,9 +1,23 @@
 <html lang="en">
   <head>
+    <script text="text/javascript" src=""></script>
+    <script>
+      fetch("menu.json")
+        .then((response) => response.json())
+        .then((data) => {
+          for (var i = 0; i < 12; ++i) {
+            let vname = data.items.name;
+            let vdescription = data.items.description;
+            let vimage = data.items.image;
+            let vprice = data.items.price;
+            let vcategory = data.items.category;
+          }
+        });
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Chow</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navbar.css" />
   </head>
