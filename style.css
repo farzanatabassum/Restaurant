@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 10px;
 }
-.container{
+.food-card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 50%;
@@ -13,7 +13,18 @@
 }
 .food-image img{
     width:300px;
-    height:300px;
+    height:200px;
     border: 4px solid orange;
     border-radius: 10px;
+}
+.card-title{
+    display: flex;
+    justify-content: space-between;
+}
+.food-details{
+    margin-left: 5px;
+
+}
+.food-price{
+    color: orange;
 }
