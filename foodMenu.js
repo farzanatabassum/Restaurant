@@ -1,9 +1,11 @@
 const filterItems=(foodCategory)=>{
+    console.log(foodCategory)
     fetch('./menu.json')
     .then((response) => response.json())
     .then((data) => 
     {
         if(foodCategory==='all'){
+            console.log(data)
             return data
             
         }
@@ -15,7 +17,7 @@ const filterItems=(foodCategory)=>{
         }
        
     })
-    
+    console.log(modifydata)
     return modifydata}
     )
 }
