@@ -1,0 +1,84 @@
+[{
+	"name": "Jiang Bing",
+	"description": "Savoury pancakes",
+	"image": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fmychinesekitchen.com%2Fjian-bing%2F&psig=AOvVaw1kNo5iRjTE4ivKFzayBVqI&ust=1673245216170000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCb76eqt_wCFQAAAAAdAAAAABAE",
+	"price": "BDT. 385",
+	"category": "breakfast"
+},
+{
+"name":"Congee",
+"description":"Mild flavoured rice porridge",
+"image":"https://healthynibblesandbits.com/?s=congee",
+"price":"BDT. 295",
+"category":"breakfast"
+},
+{
+    "name":"Dough Sticks with Soybean Milk",
+    "description":"Sweet, deep-fried sticks made up of dough",
+    "image":"https://cookingtheglobe.com/youtiao-chinese-crullers-recipe/",
+    "price":"BDT. 345",
+    "category":"breakfast/dessert"
+    },
+    {
+        "name":"Tofu Pudding",
+        "description":"Sweet, deep-fried sticks made up of dough",
+        "image":"https://asianinspirations.com.au/recipes/tofu-pudding-tau-foo-fa/",
+        "price":"BDT. 580",
+        "category":"breakfast/dessert"
+        },
+        {
+            "name":"Oodles of Noodles",
+            "description":"Hand-pulled beef noodles",
+            "image":"https://asianinspirations.com.au/wp-content/uploads/2022/08/Japanese-Noodles-00-Feat-Img-1024x683.jpg",
+            "price":"BDT. 685",
+            "category":"Main Course"
+            },
+            {
+                "name":"Kung Pao Chicken",
+                "description":"Stir-fried chicken with peanuts, vegetables, and chili peppers",
+                "image":"https://asianinspirations.com.au/wp-content/uploads/2019/01/R00830_Kung_Pao_Chicken-2-619x412.jpg",
+                "price":"BDT. 485",
+                "category":"Main Course"
+                },
+                {
+                    "name": "Peking Roast Duck",
+                    "description": "An oven-roasted duck with golden-brazed, complemented with  spring onion, cucumber, and sweet bean sauce",
+                    "image": "https://asianinspirations.com.au/wp-content/uploads/2018/12/R01533_Peking_Chicken-2-619x412.jpg",
+                    "price": "BDT. 685",
+                    "category": "Main Course"
+                },
+                {
+                "name":"Mapo Tofu",
+                "description":"Tofu simmered in simmered with bean paste, beef, hot roasted chili oil, and a handful of the infamous tongue-numbing Sichuan peppercorns",
+                "image":"https://asianinspirations.com.au/wp-content/uploads/2018/12/R00810_Shortcut_Mapo_Tofu-619x412.jpg",
+                "price":"BDT. 485",
+                "category":"Main Course"
+                },
+                {
+                    "name":"Wonton in chilli oil",
+                    "description":"Shredded chicken draped in egg yolk wrappers, garnished with hot chilli oil",
+                    "image":"https://asianinspirations.com.au/wp-content/uploads/2023/01/R03039-Chicken-and-Prawn-Wontons-in-Chilli-Oil-619x412.jpg",
+                    "price":"BDT. 385",
+                    "category":"Appetizer"
+                    },
+                    {
+                        "name":"Cabbage Rolls",
+                        "description":"Steamed beef filled with spicy minced beef",
+                        "image":"https://healthynibblesandbits.com/wp-content/uploads/2020/02/Vietnamese-Spring-Rolls-7.jpg",
+                        "price":"BDT. 435",
+                        "category":"Appetizer"
+                        },{
+                            "name":"Gyoza",
+                            "description":"Dumpling filled with minced beef, mushrooms, and cabbage",
+                            "image":"https://healthynibblesandbits.com/wp-content/uploads/2018/12/Tofu-and-Kimchi-Dumplings-6.jpg",
+                            "price":"BDT. 485",
+                            "category":"Appetizer"
+                            },
+                            {
+                                "name":"Egg Drop Soup",
+                                "description":"Classic Chinese Soup made with chicken, tomatoes, and couple of eggs in a pot",
+                                "image":"https://s23209.pcdn.co/wp-content/uploads/2022/03/Egg-Drop-Soup220223_DD_Egg-Drop-Soup_146-760x1140.jpg",
+                                "price":"BDT. 685",
+                                "category":"Appetizer"
+                                }
+]
