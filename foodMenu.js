@@ -3,6 +3,11 @@ const filterItems=(foodCategory)=>{
     .then((response) => response.json())
     .then((data) => 
     {
+        if(foodCategory==='all'){
+            return data
+            
+        }
+       
         let modifydata=data.filter((foodItem)=>{
         
         if(foodItem.category===foodCategory){
@@ -10,6 +15,7 @@ const filterItems=(foodCategory)=>{
         }
        
     })
+    
     return modifydata}
     )
 }
