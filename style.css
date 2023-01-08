@@ -81,3 +81,16 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  .food-title  {
+    pointer-events: none;
+  }
+
+  
+  .food-details  {
+    pointer-events: none;
+  }
+
+  img  {
+    pointer-events: none;
+  }
